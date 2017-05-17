@@ -1,0 +1,372 @@
+    body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: #FAFAFA;
+        font: 10pt "Tahoma";
+    }
+    * {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+    }
+    [contenteditable='true'] {
+        background-color: LightGrey;
+    }
+    img{
+        width: 100%;
+    }
+    #importe{
+        height: 320px
+    }
+    .book {
+        margin-top: 0px;
+        width: 215.9mm;
+        margin: auto;
+    }
+    .sidebyside{
+        display: inline-block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 49%;
+    }
+    .centerImage{
+        text-align:center;
+    }
+
+    .page {
+        position: relative;
+        width: 215.9mm;
+        min-height: 279.4mm;
+        max-height:279.4mm;
+        background: white;
+        border: 1px #D3D3D3 solid;
+        /*border-radius: 5px;*/
+        background-image: url("../img/proyecto/image015.png");
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: 100% auto;
+        background-position-y: 911px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        margin: 10mm auto;
+    }
+    .fit img{
+        max-height: 700px
+    }
+    /*.futer::after {
+      content: "";
+      background: url(image.jpg);
+      opacity: 0.5;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      position: absolute;
+      z-index: -1;
+      }*/
+      .header {
+       text-align: right;
+       opacity: .5;
+       margin: 0px;
+       height: 0px;
+   }
+   .header img{
+    width: 150px;
+    margin-top: 60px;
+    margin-right: 70px;
+}
+.margin{
+    margin-top: 12px;
+    padding: 20mm;
+}
+.detalles{
+    text-align: right;
+    margin-top: 2px;
+}
+.centered {
+    text-align: center;
+    margin-top: 50%;
+}
+.center {
+    text-align: center;
+}
+.table-conteiner{
+    text-align: center;
+}
+#generacion{
+
+    position:relative;
+    min-height:100%;
+}
+.content p{
+    text-align: justify;
+    text-indent: 30px;
+}
+.content span.parrafo{
+    text-align: justify;
+    text-indent: 30px;
+    display:inline-block;
+}
+span.parrafo{
+    display:inline-block;
+}
+.parrafo p{
+    padding-top: 20px;
+    text-indent: 0px;
+}
+th span{
+    text-align:center!important;
+}
+.imagen p{
+    text-indent: 0px;
+    display: block;
+    margin-before: 1em;
+    margin-after: 1em;
+    margin-start: 0;
+    margin-end: 0;
+}
+
+.futer {
+    margin-bottom: -2px;
+    position: absolute;
+    z-index: -1;
+    bottom: 0;
+    left: 0;
+}
+.futer img{
+  width: 100%;
+  opacity: .5;
+  left: 0;
+  bottom: 0;
+}
+/*tables*/
+table{
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+}
+thead,tr td{
+    background-color:white;
+
+}
+table, th, td {
+    border: 1px solid black;
+}
+th,td{
+    width: black;
+}
+.headOn , .columnOn tbody tr td:first-child{
+    background-color:rgb(194,214,155);
+
+}
+td{
+    text-align: center;
+}
+.table-borderless table{
+    table-layout: auto;
+}
+.table-borderless table td{
+
+    table-layout: auto;
+    text-align: left;
+
+    border-collapse:collapse
+}
+
+.table-borderless table,.table-borderless  th,.table-borderless  td{
+    font: 14px "Arial" ;
+    border: 0px solid black;
+}
+.green{
+    background-color: rgb(0,176,80);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font: 11pt "Arial";
+}
+.economia{
+    margin-top: 30px;
+}
+.economia table, .borderless td,.borderless tr  {
+    border: 0px;
+}
+
+td.border{
+ border: 1px solid black;
+}
+.to_bottom{
+    /*left:50px;*/
+    position: absolute;
+    bottom: 150px;
+    width: 650px;
+}
+.right {
+    float: right;
+    width:35%;
+}
+.left{
+    float: left;
+    width: 35%;
+}
+.to_bottom_center{
+    position: absolute;
+    bottom: 100px;
+    width: 80%;
+}
+.extra_signing{
+    width: 35%;
+    display: block;
+    margin: auto;
+}
+.content {
+  overflow: hidden; /* replaces <div class="clear"/> */
+  margin-bottom: 10px;
+}
+
+.columns {
+  position: relative;
+  float: right;
+  width: 70%;
+}
+.signing{
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    border-top: 2px solid black;
+    font-size: 12pt "Arial";
+    font-weight: bold;
+}
+
+.c2 {
+  /*float: none;  Don't float this column... */
+  float: left;
+  text-decoration: underline;
+  font-weight: bold;
+  width: 30%;
+  overflow: hidden; /* ... Create a new block formatting context instead */
+  word-wrap: break-word;
+}
+/*end tables*/
+/*
+.page img{
+    width:100%;
+}
+
+
+
+
+.subpage {
+    padding: 1cm;
+    border: 5px red solid;
+    height: 257mm;
+    outline: 2cm #FFEAEA solid;
+}
+
+
+*/
+
+.content_left{
+    float: left;
+    width: 40%;
+    font: 11pt "Arial";
+}
+.content_right{
+    width: 60%;
+    overflow: hidden;
+}
+.columns.two{
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+
+.empty_image{
+ /* display: inline-block; */
+ vertical-align: middle;
+ line-height: normal;
+ background-color:  grey;
+ color: white;
+ height: 200px;
+}
+/*leader*/
+.inertitle{
+    font:17pt "Adobe Caslon Pro";
+}
+.title {
+    font:17pt "Cambria";
+    color: rgb(79,129,189);
+}
+.subtitle{
+    font:13pt "Cambria";
+    color: rgb(79,129,189);
+}
+.leaders {
+    font:12pt "Times New Roman";
+}
+
+ul.leaders {
+    max-width: 40em;
+    padding: 0;
+    overflow-x: hidden;
+    list-style: none
+}
+ul.leaders li:before {
+    float: left;
+    width: 0;
+    white-space: nowrap;
+    content:
+    ". . . . . . . . . . . . . . . . . . . . "
+    ". . . . . . . . . . . . . . . . . . . . "
+    ". . . . . . . . . . . . . . . . . . . . "
+    ". . . . . . . . . . . . . . . . . . . . "
+}
+ul.leaders span:first-child {
+    padding-right: 0.33em;
+    background: white
+}
+ul.leaders span + span {
+    float: right;
+    padding-left: 0.33em;
+    background: white
+}
+.lvl2 {
+    padding-left: 10px;
+}
+/*end leader*/
+
+
+@page {
+    size: letter;
+    margin: 0;
+}
+@media print {
+    .morris-hover.morris-default-style, .no_print{
+        display: none!important;
+    }
+    /** {margin:0;padding:0}*/
+    @page {size: letter; margin:0mm;}
+    html, body {height: 100%;}
+    html {background-color:red}
+    body {background-color:green}
+    .page{
+        margin: 0 auto;
+    }
+    .margin{
+       margin: 0 auto;
+   }
+   [contenteditable='true'] {
+    background-color: LightGrey;
+}
+.futer{
+    margin-bottom: 0px;
+}
+}
+/*@media print {
+
+    html, body {
+        width: 210mm;
+        height: 297mm;
+
+    }
+
+}*/
